@@ -1,7 +1,8 @@
 
 # A common architecture deployed with Bicep
-We think a common architecture for Azure customers is Web App + Data + Key Vault + Monitoring. How easy it to deploy this with Bicep?
-
+We think a common architecture for Azure customers is Web App + Data + Key Vault + Monitoring. 
+![diagram](commonArchDiagram.PNG)
+How easy it to deploy this with Bicep?
 1. Install Bicep CLI and VS Code extension
 2. Use examples from Bicep repo to copy/paste for starting point
    - web-app-sql-database: https://github.com/Azure/bicep/blob/main/docs/examples/201/web-app-sql-database/main.bicep
