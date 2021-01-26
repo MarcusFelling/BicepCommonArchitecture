@@ -1,2 +1,2 @@
-# BicepCommonArchitecture
-Web App + Data + Key Vault + Monitoring
+# A Common Architecture deployed with Bicep
+We think a common architecture is Web App + Data + Key Vault + Monitoring. How easy it to deploy this with Bicep?
