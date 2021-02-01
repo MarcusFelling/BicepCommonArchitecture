@@ -1,5 +1,5 @@
 
-# A common architecture deployed with Bicep
+# Senario: Authoring a common architecture with Bicep
 We think a common architecture for Azure customers is Web App + Data + Managed Identity + Monitoring.
 ![diagram](commonArchDiagram.PNG)
 
@@ -37,4 +37,6 @@ We think a common architecture for Azure customers is Web App + Data + Managed I
 9. Deploy to resource group using Azure CLI: ``` az deployment group create -f ./Infrastructure.json -g CommonArchitectureResourceGroup ```
 10. Enter parameters values for sqlAdministratorLogin, sqlAdministratorPassword at command line.
 11. Hopefully you see no errors
-12. Deployment complete!
+12. Test
+13. Implement in CI/CD
+14. Iterate, collaborate, scale
