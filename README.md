@@ -1,5 +1,5 @@
 
-# Senario: Authoring a common architecture with Bicep
+# Scenario: Authoring a common architecture with Bicep
 We think a common architecture for Azure customers is Web App + Data + Managed Identity + Monitoring.
 ![diagram](commonArchDiagram.PNG)
 
